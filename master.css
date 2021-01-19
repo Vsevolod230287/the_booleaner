@@ -1,0 +1,123 @@
+*{
+  margin :0;
+  box-sizing: border-box;
+}
+
+
+
+/* header logo + background */
+.header{
+  height: 100px;
+  background-color: purple;
+  background-size: 32%;
+}
+
+.logo{
+  width: 250px;
+  margin-left: 190px;
+  margin-top: 30px;
+}
+
+
+/* div con la classe="main" che ingloba tutti gli elementi  */
+.main{
+  margin: auto;
+  width: 1010px;
+}
+
+
+
+/* Titolo principale con sotto titolo e con la data */
+.titolo_principale > p{
+  color: grey;
+}
+
+.titolo_principale > p > span:first-child{
+  color: purple;
+}
+
+.titolo_principale > p  span:last-child{
+  font-size: 10px;
+}
+
+
+/* le imagini  di Tim e il testo sotto attacato minuscolo */
+.immagini_tim{
+  margin-top: 20px;
+}
+
+.immagini_tim > p{
+  font-size: 11px;
+}
+
+
+
+/* paragrafo  */
+.paragrafo{
+  margin-top: 30px;
+}
+
+.paragrafo > p > span{
+  background-color: yellow;
+}
+
+
+/* unordered list */
+.unordered_list{
+  margin-top: 40px;
+}
+
+.unordered_list > ul{
+  padding-left: 18px;
+}
+
+
+/* la tabella a 4 righe */
+.table{
+  border: hidden;
+  margin-top: 40px;
+}
+
+thead{
+  color: white;
+  background-color: rgb(126, 139, 208);
+}
+
+.td_25_percent{
+  width: 25%;
+}
+
+.tr_color_pink{
+  background-color: pink;
+}
+
+
+/* titoleo delle imagini e le immagini finali  */
+.video_suggeriti{
+  margin-top: 40px;
+}
+
+.video_suggeriti > h3 {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+
+.img1{
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 312px;
+  height: 208px;
+  background-image: url('./img/monitor.jpg');
+}
+.video_suggeriti h2{
+  color: white;
+}
+
+.img2{
+  padding: 15px;
+  margin-bottom: 50px;
+  background-image: url('./img/graph.jpg');
+  width: 311px;
+  height: 207px;
+}
