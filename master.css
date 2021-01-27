@@ -11,6 +11,13 @@
   background-color: purple;
   background-size: 32%;
 }
+.header .pattern {
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/pattern.png');
+  background-position: center;
+  background-size: contain;
+}
 
 .logo{
   width: 250px;
